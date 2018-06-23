@@ -1,0 +1,29 @@
+:root {
+  --base: #000;
+  --grayscale: 50%;
+}
+
+img {
+  filter: grayscale(var(--grayscale));
+  transform: rotate(180deg)
+}
+
+body {
+  text-align: center;
+  background: var(--base);
+  color: white;
+  font-family: 'helvetica neue', sans-serif;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+label {
+  font-size: 2rem;
+  margin: 0 15px;
+}
+
+input {
+  width: 100px;
+}
